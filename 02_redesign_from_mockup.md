@@ -17,7 +17,7 @@ your functionality intact.
 ## The Prompt
 
 ```
-Use the attached screenshot as the basis for a UI redesign.
+Use the visual reference described at the end of this prompt as the basis for a UI redesign.
 
 Redesign the application's visual style, layout, spacing, and component expression
 to match the theme and design language shown in the image.
@@ -32,6 +32,11 @@ Important constraints:
 The goal is to re-theme the application as closely as possible to the provided
 design using realistic, buildable UI components, while maintaining usability and
 clarity.
+
+Visual reference:
+(Attach your image, link, file path, or description below)
+- Reference details: 
+
 ```
 
 ---
@@ -39,8 +44,8 @@ clarity.
 ## How to Use
 
 1. Copy the mockup image from Prompt 1
-2. Paste it into your AI coder (Claude Code, Cursor, etc.)
-3. Use the prompt above
+2. Provide the visual reference to your AI coder (attach, link, or describe)
+3. Fill in the `Visual reference` lines at the bottom of the prompt
 4. Let it restyle your app
 
 ---

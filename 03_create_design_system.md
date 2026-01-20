@@ -51,7 +51,7 @@ designer. It is a document that is used to guide the creation of a design system
 ## Analyze Design
 
 Deeply analyze the design of the current application to create a
-`docs/design_concept.json` file in this project that describes the style and
+design concept file in this project that describes the style and
 design of every UI component needed in a design system at a high level, like a
 creative director.
 
@@ -67,7 +67,8 @@ The goal with this file is to instruct AI to be able to replicate this look
 easily in this project.
 
 ## Output
-Output your design concept into a file called `docs/design_concept.json`.
+Output your design concept into the design concept file path from the output
+file inputs at the end of this prompt.
 
 # Design System
 
@@ -88,7 +89,12 @@ along with high-level design guidelines, as there may be future components creat
 and it should be clear to the building agent how to create new styles for it.
 
 ## Output
-Output your design system into a file called `docs/design-system.json`.
+Output your design system into the design system file path from the output
+file inputs at the end of this prompt.
+
+Output file inputs (edit only these lines):
+- Design concept file path: docs/design_concept.json
+- Design system file path: docs/design-system.json
 ````
 
 ---
@@ -100,9 +106,7 @@ Output your design system into a file called `docs/design-system.json`.
 3. You'll get two files in `docs/`:
    - `design_concept.json` - The creative direction
    - `design-system.json` - The technical specs
-4. For all future work, tell your AI: "Use the design system in docs/design-system.json"
-4. For all future work, tell your AI: "Use the design system in
-   docs/design-system.json"
+4. For all future work, tell your AI: "Use the design system in `docs/design-system.json`"
 
 ---
 

@@ -17,36 +17,41 @@ with your chosen theme. This image becomes the reference for the next step.
 
 ```
 I've provided a screenshot of an existing application. Please redesign the UI as a
-visual mock-up image (not a functional app) using a [THEME]-inspired theme that feels [ADJECTIVES].
+visual mock-up image (not a functional app) using the theme inputs at the end of this prompt.
 
 The redesign should preserve the structure and usability of a real application—avoid
 purely decorative effects or excessive gradients. Focus on re-theming and visual
 expression while keeping it realistic and usable.
+
+Theme inputs (edit only these lines):
+- Theme inspiration:
+- Desired adjectives / vibe:
 ```
 
 ---
 
 ## How to Customize
 
-Replace the bracketed sections:
+Edit the `Theme inputs` lines at the bottom of the prompt:
 
-| Placeholder | What to Put | Examples |
-|-------------|-------------|----------|
-| `[THEME]` | Your inspiration | flowers, space, ocean, bubbles, construction, forest, neon |
-| `[ADJECTIVES]` | The feeling you want | open, creative, lightweight, colorful, calm, energetic, professional, playful |
+- **Theme inspiration**: flowers, space, ocean, bubbles, construction, forest, neon
+- **Desired adjectives / vibe**: open, creative, lightweight, colorful, calm, energetic, professional, playful
 
 ---
 
 ## Example: Flowers Theme
 
 ```
-I've provided a screenshot of an existing application. Please redesign the UI
-as a visual mock-up image (not a functional app) using a flowers-inspired
-theme that feels open, creative, lightweight, colorful, and enjoyable.
+I've provided a screenshot of an existing application. Please redesign the UI as a
+visual mock-up image (not a functional app) using the theme inputs at the end of this prompt.
 
 The redesign should preserve the structure and usability of a real
 application—avoid purely decorative effects or excessive gradients.
 Focus on re-theming and visual expression while keeping it realistic and usable.
+
+Theme inputs (edit only these lines):
+- Theme inspiration: flowers
+- Desired adjectives / vibe: open, creative, lightweight, colorful, and enjoyable
 ```
 
 ---
@@ -54,13 +59,16 @@ Focus on re-theming and visual expression while keeping it realistic and usable.
 ## Example: Space Theme
 
 ```
-I've provided a screenshot of an existing application. Please redesign the UI
-as a visual mock-up image (not a functional app) using a space-inspired theme
-that feels expansive, dark, mysterious, and futuristic.
+I've provided a screenshot of an existing application. Please redesign the UI as a
+visual mock-up image (not a functional app) using the theme inputs at the end of this prompt.
 
 The redesign should preserve the structure and usability of a real application—avoid
 purely decorative effects or excessive gradients. Focus on re-theming and visual
 expression while keeping it realistic and usable.
+
+Theme inputs (edit only these lines):
+- Theme inspiration: space
+- Desired adjectives / vibe: expansive, dark, mysterious, and futuristic
 ```
 
 ---
